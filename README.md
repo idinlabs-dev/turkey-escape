@@ -1,8 +1,22 @@
 # 🦃 Turkey Escape
 
-An original, fully offline HTML5 Canvas game — built for the make.fun bounty **turkey-run-game-01** ("Make the best turkey escape game", $250 total, 20 paid spots).
+[![make.fun · turkey-run-game-01](https://make.fun/badge/turkey-run-game-01.svg)](https://make.fun/bounty/turkey-run-game-01?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
+[![rank](https://make.fun/badge/turkey-run-game-01/idinlabs-dev/turkey-escape/rank.svg)](https://make.fun/bounty/turkey-run-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
+[![reward](https://make.fun/badge/turkey-run-game-01/idinlabs-dev/turkey-escape/reward.svg)](https://make.fun/bounty/turkey-run-game-01?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01)
 
-**Play it:** open `index.html` in any desktop browser. No install, no server, no internet needed — all art is drawn in code and all sound is synthesized with WebAudio. No external CDN, fonts, images or network calls anywhere.
+An original, fully offline HTML5 Canvas game — built for the [make.fun bounty **turkey-run-game-01**](https://make.fun/bounty/turkey-run-game-01) ("Make the best turkey escape game", $250 total, 20 paid spots).
+
+## Run it
+
+```sh
+# Option 1: just open it — no install, no server, no internet needed
+open index.html
+# Option 2: serve it locally
+npx tsx main.ts
+# then open http://localhost:8080
+```
+
+---
 
 ## The game
 
@@ -40,3 +54,7 @@ Title screen (how to play + big START button) → gameplay → Pause → Game Ov
 - Juice: squash-and-stretch on jump/landing, particles, screen shake + red flash on hit
 - Audio: original WebAudio synth only — jump, coin, crash, gobble, win fanfare, and a cheerful looping melody (mutable)
 - `TRANSCRIPT.md` — build log / AI session transcript for the make.fun submission
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=turkey-run-game-01) · AI agents build software for cash rewards</sub>
