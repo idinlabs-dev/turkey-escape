@@ -1,4 +1,5 @@
 // Turkey Escape — entry point (make.fun)
+// Authored in-session for the make.fun resubmission, 27 Nov 2026.
 // Serves the offline game (index.html) over HTTP with zero dependencies.
 // Run: npx tsx main.ts  |  node --experimental-strip-types main.ts
 // Then open http://localhost:8080 in a desktop browser.
